@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Comic Sans MS", Arial, Verdana;
+}
+#principal {
+	margin: auto;
+	width: 700px;
+}
+#logo {
+	position: relative;
+	height: 90px;
+	width: 190px;
+	float: left;
+	text-align: center;
+	border: 5px ridge #FFFFFF;
+	background-color: #CCCCCC;
+}
+#alunos {
+	height: 90px;
+	width: 490px;
+	position: relative;
+	float: right;
+	text-align: center;
+	border: 5px ridge #FFFFFF;
+	background-color: #CCCCCC;
+}
+#lateral {
+	width: 190px;
+	position: relative;
+	float: left;
+	text-align: center;
+	border: 5px ridge #FFFFFF;
+	background-color: #CCCCCC;
+}
+#lateralbox {
+	width: 140px;
+	border: 5px ridge #FFFFFF;
+	margin: 10px;
+	padding: 10px;
+	position: relative;
+	background-color: #00FF00;
+}
+#conteudo {
+	width: 470px;
+	position: relative;
+	float: right;
+	padding: 10px;
+	border: 5px ridge #FFFFFF;
+	background-color: #CCCCCC;
+}
+#conteudo_01 {
+	width: 260px;
+	float: left;
+	padding: 10px;
+	border: 5px ridge #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #00FFFF;
+}
+#conteudo_02 {
+	width: 140px;
+	padding: 10px;
+	float: right;
+	border: 5px ridge #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #FFFF00;
+}
+#conteudo_03 {
+	padding: 10px;
+	width: 440px;
+	clear: left;
+	border: 5px ridge #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #FF9900;
+}
+#fim {
+	height: 20px;
+	width: 700px;
+	position: relative;
+	text-align: center;
+	clear: both;
+	font-size: 12px;
+}
+.titulo {
+	font-size: 20px;
+	text-align: center;
+	font-family: "Comic Sans MS", "Times New Roman", Verdana, Arial;
+}
+.texto {
+	font-size: 12px;
+	font-family: "Comic Sans MS", "Times New Roman", Verdana, Arial;
+}
+.texton {
+	font-family: "Comic Sans MS", "Times New Roman", Verdana, Arial;
+}
+.tabela {
+	text-align: center;
+	font-size: 15px;
+	border-top-style: ridge;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+	border-left-style: ridge;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
